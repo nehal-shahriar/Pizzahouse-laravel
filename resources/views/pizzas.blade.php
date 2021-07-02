@@ -9,7 +9,7 @@
 <div class="center">
         <H2>Pizza List</H2>
         @foreach($pizzas as $pizza)
-        <p>{{ $pizza['name'] }} - {{ $pizza['type'] }} - {{ $pizza['base'] }}</p>
+        <p>{{ $pizza->name }} - {{ $pizza->type }} - {{ $pizza->base }}</p>
         @endforeach
     </div>
 @endsection
