@@ -22,4 +22,3 @@ Route::get('/', function () {
 Route::get('/pizzas', [PizzaController::class, 'index']);
 
 
-
