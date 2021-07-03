@@ -11,5 +11,7 @@
         @foreach($pizzas as $pizza)
         <p>{{ $pizza->name }} - {{ $pizza->type }} - {{ $pizza->base }}</p>
         @endforeach
+
+        <p class="mssg">{{ session('mssg') }}</p>
     </div>
 @endsection

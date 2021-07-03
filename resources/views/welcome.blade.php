@@ -102,6 +102,7 @@
                 Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
             </div>
         </div>
+        <p class="mssg">{{ session('mssg') }}</p>
     </div>
 </div>
 @endsection
